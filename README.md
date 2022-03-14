@@ -1,2 +1,2 @@
-# portfolio-updated
-539 portfolio
+# checkpoint-shc
+Checkpoint - Simple HTML and CSS

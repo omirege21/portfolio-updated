@@ -1,0 +1,84 @@
+
+nav {
+    background-color: #8a2613;
+    margin-bottom: 20px;
+    border-bottom: double 10px #e6e0e0;
+    border-top: double 10px #e6e0e0;
+}
+
+nav ul{
+    min-width: 200px;
+    min-height: 100px;
+    padding: 20px;
+
+}
+
+nav li{
+    width: 200px;
+    margin:14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a{
+    color: #e6e0e0;
+    padding: 2px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}    
+
+li.active a{
+    color: #8a2613;
+    background-color: #e6e0e0;
+    border: solid 0.25px #f2f2f2;
+    border-radius: 6px;
+    font-weight: 300;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+nav li.active a:hover{
+    text-decoration: none;
+}
+
+/* 
+<-Width, border, margin, padding, and border radius are used on every image. Pseudo classes are used to style every other (or every third) image
+*/
+
+main {
+    min-width: 200px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    border: solid 5px #8a2613;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px; 
+    border-radius: 2px;
+
+}
+
+img:nth-child(even) {
+    border: solid 5px #006f40;
+}
+
+img:hover, img:nth-child(even):hover {
+    border: ridge 10px #53180c;
+    width: 85%;
+    border-radius: 8px;
+    padding: 0px; 
+}
+
